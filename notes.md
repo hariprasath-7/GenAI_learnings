@@ -132,3 +132,49 @@ Common metric: Cosine similarity.
 Example: A query about “learning Python” retrieves documents about Python tutorials even if the exact words are different.
 
 Simple definition: Similarity search finds content with similar meaning, not just matching keywords.
+
+LangChain Learnings
+What is LangChain?
+
+LangChain is a framework for building applications using Large Language Models (LLMs).
+
+It acts as a bridge between the LLM and external data/tools such as PDFs, databases, APIs, and memory.
+
+Why LangChain?
+
+An LLM alone can generate text, but real AI applications also need to:
+
+Read documents
+Search a vector database
+Remember conversations
+Call APIs/tools
+Perform multi-step workflows
+
+LangChain helps orchestrate all these components.
+
+Core Components
+LLM / Chat Model
+
+The AI model that generates responses (GPT, Gemini, Claude, Llama).
+
+Prompt Template
+
+Reusable prompts with placeholders.
+
+Chain
+
+Connects multiple steps into a workflow.
+
+Example: Question → Retriever → LLM → Answer
+
+Retriever
+
+Fetches the most relevant document chunks from a vector database.
+
+Memory
+
+Stores conversation history.
+
+Agent
+
+Allows the LLM to choose and use external tools dynamically.
