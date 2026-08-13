@@ -1,0 +1,18 @@
+[project]
+name = "langchain-crash-course"
+version = "0.1.0"
+description = "Agentic AI Crash Course using LangChain"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    "langchain-chroma>=0.1.4",
+    "python-dotenv>=1.0.1",
+    "jupyter>=1.1.1",
+    "streamlit>=1.38.0",
+    "pypdf>=5.0.0",
+    "chromadb>=0.5.5",
+    "sentence-transformers>=3.1.1"
+]
